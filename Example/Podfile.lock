@@ -1,0 +1,16 @@
+PODS:
+  - ArunLabel (0.1.0)
+
+DEPENDENCIES:
+  - ArunLabel (from `../`)
+
+EXTERNAL SOURCES:
+  ArunLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ArunLabel: 597e14bfcfe5f13c8ca5de4a70e10340f55a46d3
+
+PODFILE CHECKSUM: 467d06c17e7bea196165d42c671a5324b4ee9ebb
+
+COCOAPODS: 1.3.1

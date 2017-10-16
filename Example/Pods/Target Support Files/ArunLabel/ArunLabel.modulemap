@@ -1,0 +1,6 @@
+framework module ArunLabel {
+  umbrella header "ArunLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

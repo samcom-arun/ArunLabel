@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ArunLabel_Example' do
+  pod 'ArunLabel', :path => '../'
+
+  target 'ArunLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

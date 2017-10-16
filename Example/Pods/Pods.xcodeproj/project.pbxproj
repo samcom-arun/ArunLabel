@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		0738122BA1239633E4107443038BC081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		37A9AA7B51450FC75BC3D6243373A83F /* Pods-ArunLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6629B6D1FDF4EE73FADA147CA363E1BF /* Pods-ArunLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FDDFB10889A644E5F058BEE2B7648DD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A0D1127E73E800B8DB96A6B608D97 /* ReplaceMe.swift */; };
 		60DB4CB641359739B022C6ABA5E548E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		737B983EC0F38D926C51B5925B43578E /* Pods-ArunLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 444C486BCC54718CD0359FCA93EF162E /* Pods-ArunLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E0FE4D2B87B2EE56AC0EF8433ECC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A5F142A7D0014B0CAB10BDAD692FBE9D /* ArunLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E5F096932F271126DB1038A6D23E80 /* ArunLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBA162C71F94B88200048C9E /* ArunLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA162C61F94B88200048C9E /* ArunLabel.swift */; };
 		C1AF6FCED709982870373CB128E42487 /* Pods-ArunLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E48EA0889D85F51A28265948486D7 /* Pods-ArunLabel_Tests-dummy.m */; };
 		E2A71E88A3B0451DE01BC5CF51A5FCF7 /* Pods-ArunLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9BA18B5E39D755FEFBC979CE2038B /* Pods-ArunLabel_Example-dummy.m */; };
 		E6C3E3757B542ED6E04CBBF073F8853D /* ArunLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF658C781AC1EE9FA4CAE770813BFEF /* ArunLabel-dummy.m */; };
@@ -33,8 +33,8 @@
 		0444D9A5C2853A76925105440B84481C /* Pods-ArunLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArunLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		07BA45EEDAC36E3167B033EFEA2C5F73 /* Pods-ArunLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		15CE97C8082CDF76998837FA8EB5DCA0 /* Pods-ArunLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		19A7925E8FA7A6D3763EF3B756210C2C /* ArunLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ArunLabel.modulemap; sourceTree = "<group>"; };
-		1C2192D10B9139F52D915BF604ED6355 /* Pods-ArunLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArunLabel_Example.modulemap"; sourceTree = "<group>"; };
+		19A7925E8FA7A6D3763EF3B756210C2C /* ArunLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ArunLabel.modulemap; sourceTree = "<group>"; };
+		1C2192D10B9139F52D915BF604ED6355 /* Pods-ArunLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArunLabel_Example.modulemap"; sourceTree = "<group>"; };
 		2AED5C6B48E15FCFABAE950371FD111F /* Pods-ArunLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArunLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		444C486BCC54718CD0359FCA93EF162E /* Pods-ArunLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArunLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4DD9BA18B5E39D755FEFBC979CE2038B /* Pods-ArunLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArunLabel_Example-dummy.m"; sourceTree = "<group>"; };
@@ -44,17 +44,17 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6629B6D1FDF4EE73FADA147CA363E1BF /* Pods-ArunLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArunLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		79E39D83AFAAE39043EE41ED4081F359 /* Pods-ArunLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8197143769FF4C51E907533E91F2B9EC /* Pods_ArunLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArunLabel_Tests.framework; path = "Pods-ArunLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84E10ECDF9B03569284D5D0521B27B7B /* ArunLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ArunLabel.framework; path = ArunLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197143769FF4C51E907533E91F2B9EC /* Pods_ArunLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArunLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E10ECDF9B03569284D5D0521B27B7B /* ArunLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArunLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868C8998D1E14BFB955889671CDA6F01 /* Pods-ArunLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88C45970249353E404FE5C50D70979A6 /* ArunLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArunLabel-prefix.pch"; sourceTree = "<group>"; };
-		8F191ACBC45BEFE9083A90B2CEFAD72B /* Pods_ArunLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArunLabel_Example.framework; path = "Pods-ArunLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F191ACBC45BEFE9083A90B2CEFAD72B /* Pods_ArunLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArunLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF658C781AC1EE9FA4CAE770813BFEF /* ArunLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ArunLabel-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6F15C4AEE4986AD9DC3E96067EE5362 /* Pods-ArunLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AB3E48EA0889D85F51A28265948486D7 /* Pods-ArunLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArunLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		B40A0D1127E73E800B8DB96A6B608D97 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ArunLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C7F52FB711133F3C88EBF8060CC3CF3F /* Pods-ArunLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArunLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		BBA162C61F94B88200048C9E /* ArunLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArunLabel.swift; sourceTree = "<group>"; };
+		C7F52FB711133F3C88EBF8060CC3CF3F /* Pods-ArunLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArunLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		CD40427F48F3A504A7597BB6FFFA8650 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D28693570EE31A9EF15BAD3F876F7003 /* ArunLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ArunLabel.xcconfig; sourceTree = "<group>"; };
 		D4001B707ECEA81CC35D2A550A649D82 /* Pods-ArunLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArunLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -146,8 +146,8 @@
 		9EF089641A53F2329DF1E55B885ECF0B /* ArunLabel */ = {
 			isa = PBXGroup;
 			children = (
-				B40A0D1127E73E800B8DB96A6B608D97 /* ReplaceMe.swift */,
 				1A87602AACAA51453323975026FBE6A3 /* Support Files */,
+				BBA162C61F94B88200048C9E /* ArunLabel.swift */,
 			);
 			name = ArunLabel;
 			path = ../..;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4372F7441C547654E94B7091EBB613B5 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -329,8 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA162C71F94B88200048C9E /* ArunLabel.swift in Sources */,
 				E6C3E3757B542ED6E04CBBF073F8853D /* ArunLabel-dummy.m in Sources */,
-				4FDDFB10889A644E5F058BEE2B7648DD /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D28693570EE31A9EF15BAD3F876F7003 /* ArunLabel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -637,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D28693570EE31A9EF15BAD3F876F7003 /* ArunLabel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
